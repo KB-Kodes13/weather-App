@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+    background-image: url('https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Ysabeau', sans-serif;
+}
+.weather-man {
+    background-color: rgba(106, 141, 218, 0.603);
+    color: oldlace;
+    padding: 3em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em auto;
+}
+.search-box {
+    border-radius: 8px;
+    color: oldlace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+input.weather-search {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(63, 18, 18, 0.493);
+    color: oldlace;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 100%;
+    
+
+}
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(220, 20, 60, 0);
+
+}
+.current-conditions {
+    text-transform: capitalize;
+}
